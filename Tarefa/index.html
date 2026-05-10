@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Atividade Lista de Nomes</title>
+
+</head>
+
+
+<body class="Pagina">
+    <script src="style.js"></script>
+
+
+
+    <input type="text" id="inputNome" placeholder="Digite um nome" maxlength="20">
+    <div id="botoes">
+        <button onclick="addInicio()">Adicionar ao INÍCIO da lista</button>
+        <button onclick="addFinal()">Adicionar ao FINAL da lista</button>
+        <button onclick="removePrimeiro()">Remover PRIMEIRO Nome</button>
+        <button onclick="removeUltimo()">Remover ÚLTIMO Nome</button>
+        <button onclick="filtrarNomes()">Filtrar nomes com mais de 5 letras</button>
+        <button onclick="transformarMaiusculo()">Transformar em MAIÚSCULO</button>
+        <button onclick="transformarMinusculo()">Transformar em MINÚSCULO</button>
+    </div>
+
+
+
+    <p id="contador"></p>
+    <ul id="listaNomes"></ul>
+
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
